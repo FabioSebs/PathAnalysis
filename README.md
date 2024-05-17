@@ -2,100 +2,74 @@
 
 lavaan 0.6.17 ended normally after 1 iteration
 
-Estimator ML
-Optimization method NLMINB
-Number of model parameters 11
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        11
 
-Number of observations 52
+  Number of observations                            41
 
 Model Test User Model:
-
-Test statistic 0.000
-Degrees of freedom 0
+                                                      
+  Test statistic                                 0.000
+  Degrees of freedom                                 0
 
 Model Test Baseline Model:
 
-Test statistic 53.816
-Degrees of freedom 9
-P-value 0.000
+  Test statistic                                57.141
+  Degrees of freedom                                 9
+  P-value                                        0.000
 
 User Model versus Baseline Model:
 
-Comparative Fit Index (CFI) 1.000
-Tucker-Lewis Index (TLI) 1.000
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.000
 
 Loglikelihood and Information Criteria:
 
-Loglikelihood user model (H0) -61.704
-Loglikelihood unrestricted model (H1) -61.704
-
-Akaike (AIC) 145.409
-Bayesian (BIC) 166.872
-Sample-size adjusted Bayesian (SABIC) 132.329
+  Loglikelihood user model (H0)                -46.172
+  Loglikelihood unrestricted model (H1)        -46.172
+                                                      
+  Akaike (AIC)                                 114.344
+  Bayesian (BIC)                               133.193
+  Sample-size adjusted Bayesian (SABIC)         98.758
 
 Root Mean Square Error of Approximation:
 
-RMSEA 0.000
-90 Percent confidence interval - lower 0.000
-90 Percent confidence interval - upper 0.000
-P-value H_0: RMSEA <= 0.050 NA
-P-value H_0: RMSEA >= 0.080 NA
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.000
+  P-value H_0: RMSEA <= 0.050                       NA
+  P-value H_0: RMSEA >= 0.080                       NA
 
 Standardized Root Mean Square Residual:
 
-SRMR 0.000
+  SRMR                                           0.000
 
 Parameter Estimates:
 
-Standard errors Standard
-Information Expected
-Information saturated (h1) model Structured
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
 
 Regressions:
-Estimate Std.Err z-value P(>|z|) Std.lv Std.all
-Intention_to_Complain ~  
- Attitude 0.100 0.121 0.829 0.407 0.100 0.093
-Subjectiv_Nrms 0.090 0.094 0.959 0.337 0.090 0.120
-Prcvd_Bhvrl_Cn -0.304 0.144 -2.110 0.035 -0.304 -0.416
-Past_Behavior 0.644 0.160 4.026 0.000 0.644 0.832
-Complaint_Behavior ~  
- Intntn_t_Cmpln 0.455 0.142 3.199 0.001 0.455 0.423
-Attitude 0.070 0.125 0.562 0.574 0.070 0.061
-Subjectiv_Nrms -0.114 0.097 -1.179 0.239 -0.114 -0.141
-Prcvd_Bhvrl_Cn 0.096 0.154 0.622 0.534 0.096 0.122
-Past_Behavior 0.247 0.188 1.316 0.188 0.247 0.297
+                          Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Intention_to_Complain ~                                                      
+    Attitude                 0.307    0.119    2.584    0.010    0.307    0.298
+    Subjectiv_Nrms           0.048    0.105    0.458    0.647    0.048    0.054
+    Prcvd_Bhvrl_Cn          -0.237    0.183   -1.294    0.196   -0.237   -0.255
+    Past_Behavior            0.838    0.244    3.432    0.001    0.838    0.739
+  Complaint_Behavior ~                                                         
+    Intntn_t_Cmpln           0.383    0.148    2.595    0.009    0.383    0.450
+    Attitude                 0.111    0.121    0.915    0.360    0.111    0.126
+    Subjectiv_Nrms          -0.069    0.100   -0.696    0.486   -0.069   -0.091
+    Prcvd_Bhvrl_Cn          -0.180    0.176   -1.023    0.306   -0.180   -0.228
+    Past_Behavior            0.376    0.262    1.436    0.151    0.376    0.389
 
 Variances:
-Estimate Std.Err z-value P(>|z|) Std.lv Std.all
-.Intntn_t_Cmpln 0.187 0.037 5.099 0.000 0.187 0.625
-.Complaint_Bhvr 0.197 0.039 5.099 0.000 0.197 0.569
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Intntn_t_Cmpln    0.191    0.042    4.528    0.000    0.191    0.449
+   .Complaint_Bhvr    0.171    0.038    4.528    0.000    0.171    0.553
 
-# Translation
-
-### Model and Data Overview:
-
-- Estimator: Maximum Likelihood (ML) was used for estimating the model parameters.
-- Optimization Method: NLMINB, a numerical optimization method, was used.
-- Number of Parameters: The model includes 11 parameters.
-- Number of Observations: The analysis was based on 52 observations.
- 
-### Model Fit:
-
-**Model Test User Model=**: The test statistic is 0.000 with 0 degrees of freedom. This indicates a perfectly fitting model, but degrees of freedom being zero usually means the model is just-identified, so fit indices might not be meaningful.
-
-**Model Test Baseline Model**: This provides a comparison model for assessing relative fit. The test statistic is 53.816 with 9 degrees of freedom and a P-value of 0.000, indicating the baseline model fits poorly.
-
-**Comparative Fit Index (CFI) and Tucker-Lewis Index (TLI)**: Both are 1.000, suggesting excellent fit. However, these values should be interpreted cautiously given the just-identified model.
-
-**Loglikelihood and Information Criteria**: These values provide information on the model fit, with lower values generally indicating better fit.
-
-Loglikelihood user model (H0): -61.704
-Loglikelihood unrestricted model (H1): -61.704
-Akaike Information Criterion (AIC): 145.409
-Bayesian Information Criterion (BIC): 166.872
-Sample-size adjusted BIC (SABIC): 132.329
-Root Mean Square Error of Approximation (RMSEA): 0.000, indicating perfect fit (but not necessarily meaningful due to the degrees of freedom being zero).
-Standardized Root Mean Square Residual (SRMR): 0.000, suggesting excellent fit.
 
 ### Parameter Estimates:
 

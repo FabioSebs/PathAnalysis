@@ -30,9 +30,6 @@ processed_data <- raw_data %>%
 # Inspect the processed data
 print(head(processed_data))
 
-# Check variance of processed columns to ensure they have variance
-print(apply(processed_data, 2, var, na.rm = TRUE))
-
 # Define the path model
 model <- '
   # Direct effects
