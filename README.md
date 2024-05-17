@@ -76,31 +76,31 @@ Variances:
 **Regressions**:
 
 - Intention to Complain (Intention_to_Complain) ~
-> Attitude: Estimate = 0.100, not significant (p = 0.407), indicating that attitude does not significantly predict intention to complain.
+> Attitude: Estimate = 0.307, not significant (p = 0.010), indicating that attitude does significantly predict intention to complain.
 
 - Subjective Norms (Subjectiv_Nrms): 
-> Estimate = 0.090, not significant (p = 0.337), indicating that subjective norms do not significantly predict intention to complain.
+> Estimate = 0.048, not significant (p = 0.647), indicating that subjective norms do not significantly predict intention to complain.
 
 - Perceived Behavioral Control (Prcvd_Bhvrl_Cn): 
-> Estimate = -0.304, significant (p = 0.035), indicating that perceived behavioral control negatively predicts intention to complain.
+> Estimate = -0.237, significant (p = 0.196), indicating that perceived behavioral control negatively predicts intention to complain.
 
 - Past Behavior: 
-> Estimate = 0.644, highly significant (p < 0.001), indicating that past behavior strongly predicts intention to complain.
+> Estimate = 0.838, highly significant (p < 0.001), indicating that past behavior strongly predicts intention to complain.
 
 - Complaint Behavior (Complaint_Behavior) ~ Intention to Complain (Intntn_t_Cmpln): 
-> Estimate = 0.455, highly significant (p = 0.001), indicating that intention to complain strongly predicts complaint behavior.
+> Estimate = 0.383, highly significant (p = 0.009), indicating that intention to complain strongly predicts complaint behavior.
 
 - Attitude: 
-> Estimate = 0.070, not significant (p = 0.574), indicating that attitude does not significantly predict complaint behavior.
+> Estimate = 0.111, not significant (p = 0.360), indicating that attitude does not significantly predict complaint behavior.
 
 - Subjective Norms (Subjectiv_Nrms): 
-> Estimate = -0.114, not significant (p = 0.239), indicating that subjective norms do not significantly predict complaint behavior.
+> Estimate = -0.069, not significant (p = 0.486), indicating that subjective norms negitavely predicts complaint behavior.
 
 - Perceived Behavioral Control (Prcvd_Bhvrl_Cn): 
-> Estimate = 0.096, not significant (p = 0.534), indicating that perceived behavioral control does not significantly predict complaint behavior.
+> Estimate = -0.180, not significant (p = 0.306), indicating that perceived behavioral negitavely predicts complaint behavior.
 
 - Past Behavior: 
-> Estimate = 0.247, not significant (p = 0.188), indicating that past behavior does not significantly predict complaint behavior.
+> Estimate = 0.376, not significant (p = 0.151), indicating that past behavior does significantly predict complaint behavior.
 
 - Variances: 
 > The residual variances of the endogenous variables (Intention to Complain and Complaint Behavior) are significant, indicating there is unexplained variance in these variables.
